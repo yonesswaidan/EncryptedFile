@@ -1,0 +1,202 @@
+﻿@page "/upload"
+@using EncryptedFileApp.Models
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Authorization
+@using EncryptedFileApp.Services
+@using EncryptedFileApp.Data
+@inject FileEncryptionService EncryptionService
+@inject AzureKeyVaultService KeyVaultService
+@inject AppDbContext Db
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager NavigationManager
+@rendermode InteractiveServer
+
+<link href="css/upload.css" rel="stylesheet" />
+
+<div class="container">
+    <h1>Upload fil</h1>
+
+    <div>
+        <label for="fileInput"><strong>Vælg en fil:</strong></label><br />
+        <InputFile id="fileInput" OnChange="@OnFileSelected" />
+    </div>
+
+    <button @onclick="FileUploaded" @onclick:preventDefault="true" disabled="@IsUploading">Upload</button>
+
+    @if (UploadMessage != null)
+    {
+        <p style="color:@(UploadSuccess ? "green" : "red")">@UploadMessage</p>
+    }
+
+    @if (SelectedFile != null)
+    {
+        <div>
+            <p><strong>Filnavn:</strong> @FileName</p>
+            <p><strong>Filstørrelse:</strong> @FileSize bytes</p>
+            <p><strong>Filtype:</strong> @FileType</p>
+            <p><strong>Sidst ændret:</strong> @LastModified</p>
+        </div>
+    }
+</div>
+
+@code {
+    private IBrowserFile? SelectedFile;
+    private string FileName = "";
+    private long FileSize;
+    private string FileType = "";
+    private DateTimeOffset LastModified;
+
+    private string? UploadMessage;
+    private bool UploadSuccess;
+    private bool IsUploading = false;
+
+    private const long MAX_FILESIZE = 5 * 1024 * 1024;
+
+    private static readonly HashSet<string> AllowedContentTypes = new()
+    {
+        "application/pdf", "image/png", "image/jpeg", "text/plain", "application/zip"
+    };
+
+    private int brugerId = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (user.Identity?.IsAuthenticated == true)
+        {
+            var userIdClaim = user.FindFirst("userId");
+            if (userIdClaim != null && int.TryParse(userIdClaim.Value, out int id))
+            {
+                brugerId = id;
+            }
+        }
+    }
+
+    private void OnFileSelected(InputFileChangeEventArgs e)
+    {
+        SelectedFile = e.File;
+        if (SelectedFile != null)
+        {
+            FileName = SanitizeFileName(SelectedFile.Name);
+            FileSize = SelectedFile.Size;
+            FileType = SelectedFile.ContentType;
+            LastModified = SelectedFile.LastModified;
+
+            if (!AllowedContentTypes.Contains(FileType))
+            {
+                ResetFile("Filen af typen er ikke tilladt.");
+                return;
+            }
+
+            if (FileSize > MAX_FILESIZE)
+            {
+                ResetFile($"Filen er for stor. Maks {MAX_FILESIZE / (1024 * 1024)} MB.");
+                return;
+            }
+
+            UploadMessage = $"Fil valgt: {FileName} ({FileSize} bytes)";
+            UploadSuccess = true;
+        }
+        else
+        {
+            ResetFile("Ingen fil valgt.");
+        }
+    }
+
+    private void ResetFile(string message)
+    {
+        SelectedFile = null;
+        FileName = "";
+        FileSize = 0;
+        FileType = "";
+        LastModified = DateTimeOffset.MinValue;
+        UploadMessage = message;
+        UploadSuccess = false;
+    }
+
+    private string SanitizeFileName(string fileName)
+    {
+        fileName = Path.GetFileName(fileName);
+        foreach (var c in Path.GetInvalidFileNameChars())
+        {
+            fileName = fileName.Replace(c, '_');
+        }
+        return fileName;
+    }
+
+    private async Task FileUploaded()
+    {
+        if (IsUploading) return;
+
+        IsUploading = true;
+        UploadMessage = null;
+
+        try
+        {
+            if (SelectedFile == null)
+            {
+                UploadMessage = "Du skal vælge en fil før du kan uploade.";
+                UploadSuccess = false;
+                return;
+            }
+
+            if (brugerId == 0)
+            {
+                UploadMessage = "Du er ikke logget ind.";
+                UploadSuccess = false;
+                return;
+            }
+
+            using var stream = SelectedFile.OpenReadStream(MAX_FILESIZE);
+            var buffer = new byte[SelectedFile.Size];
+            int bytesRead = await stream.ReadAsync(buffer);
+            if (bytesRead == 0) throw new IOException("Ingen bytes læst.");
+
+            var result = EncryptionService.Encrypt(buffer);
+            var generatedFileName = Guid.NewGuid().ToString();
+
+            // Gem krypteringsnøgle og IV i Azure Key Vault
+            await KeyVaultService.StoreKeyAsync(generatedFileName, result.Key, result.IV);
+
+            var userFile = new UserFile
+                {
+                    FileName = FileName,
+                    FileSize = FileSize,
+                    ContentType = FileType,
+                    UploadTime = DateTimeOffset.Now,
+                    SavedFileName = generatedFileName,
+                    BrugerId = brugerId,
+                    EncryptedData = result.EncryptedData
+                };
+
+            Db.UserFiles.Add(userFile);
+            await Db.SaveChangesAsync();
+
+            UploadMessage = $"Filen '{FileName}' blev uploadet og krypteret.";
+            UploadSuccess = true;
+
+            ResetFileInfo();
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Upload fejl: {ex}");
+            UploadMessage = "Fejl ved upload. Prøv igen senere.";
+            UploadSuccess = false;
+        }
+        finally
+        {
+            IsUploading = false;
+        }
+    }
+
+    private void ResetFileInfo()
+    {
+        SelectedFile = null;
+        FileName = "";
+        FileSize = 0;
+        FileType = "";
+        LastModified = DateTimeOffset.MinValue;
+    }
+}

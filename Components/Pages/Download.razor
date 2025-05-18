@@ -1,0 +1,156 @@
+﻿@page "/download"
+@using EncryptedFileApp.Models
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.EntityFrameworkCore
+@inject EncryptedFileApp.Data.AppDbContext Db
+@inject EncryptedFileApp.Services.FileEncryptionService EncryptionService
+@inject EncryptedFileApp.Services.AzureKeyVaultService AzureKeyVaultService
+@inject AuthenticationStateProvider AuthenticationStateProvider
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+@rendermode InteractiveServer
+
+<link href="css/download.css" rel="stylesheet" />
+
+<div class="container">
+    <h3>Dine filer</h3>
+
+    @if (!IsAuthenticated)
+    {
+        <p>Du er ikke logget ind endnu.</p>
+        <button class="btn btn-primary" @onclick="NavigateToLogin">Log ind</button>
+    }
+    else if (UserFiles == null)
+    {
+        <p>Indlæser filer...</p>
+    }
+    else if (!UserFiles.Any())
+    {
+        <p>Du har ikke uploadet nogen filer endnu.</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Filnavn</th>
+                    <th>Størrelse (bytes)</th>
+                    <th>Type</th>
+                    <th>Uploadtidspunkt</th>
+                    <th>Handling</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var file in UserFiles)
+                {
+                    <tr>
+                        <td>@file.FileName</td>
+                        <td>@file.FileSize</td>
+                        <td>@file.ContentType</td>
+                        <td>@file.UploadTime.ToLocalTime().ToString("g")</td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => DownloadFileAsync(file)">Download</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    @if (!string.IsNullOrEmpty(DownloadMessage))
+    {
+        <p style="color:@(DownloadSuccess ? "green" : "red")">@DownloadMessage</p>
+    }
+</div>
+
+@code {
+    private List<UserFile>? UserFiles;
+    private int brugerId = 0;
+    private bool IsAuthenticated = false;
+
+    private string? DownloadMessage;
+    private bool DownloadSuccess;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        IsAuthenticated = user.Identity?.IsAuthenticated == true;
+
+        if (IsAuthenticated)
+        {
+            var userIdClaim = user.FindFirst("userId");
+            if (userIdClaim != null && int.TryParse(userIdClaim.Value, out int id))
+            {
+                brugerId = id;
+
+                UserFiles = await Db.UserFiles
+                    .Where(f => f.BrugerId == brugerId)
+                    .ToListAsync();
+            }
+            else
+            {
+                IsAuthenticated = false;
+                DownloadMessage = "Bruger-id kunne ikke valideres.";
+                DownloadSuccess = false;
+            }
+        }
+    }
+
+    private void NavigateToLogin()
+    {
+        Navigation.NavigateTo("/login");
+    }
+
+    private async Task DownloadFileAsync(UserFile file)
+    {
+        try
+        {
+            if (file == null || file.BrugerId != brugerId)
+            {
+                DownloadMessage = "Ugyldig adgang til fil.";
+                DownloadSuccess = false;
+                return;
+            }
+
+            if (file.EncryptedData == null || file.EncryptedData.Length == 0)
+            {
+                DownloadMessage = "Filen indeholder ingen data.";
+                DownloadSuccess = false;
+                return;
+            }
+
+            // 🔐 Hent nøgle og IV fra Azure Key Vault via AzureKeyVaultService
+            var keyIv = await AzureKeyVaultService.GetKeyAsync(file.SavedFileName);
+
+            if (keyIv == null || keyIv.Value.Key == null || keyIv.Value.IV == null)
+            {
+                DownloadMessage = "Kunne ikke hente krypteringsnøglen fra Azure Key Vault.";
+                DownloadSuccess = false;
+                return;
+            }
+
+            var decryptedData = EncryptionService.Decrypt(file.EncryptedData, keyIv.Value.Key, keyIv.Value.IV);
+
+            if (decryptedData == null || decryptedData.Length == 0)
+            {
+                DownloadMessage = "Dekryptering mislykkedes.";
+                DownloadSuccess = false;
+                return;
+            }
+
+            var base64String = Convert.ToBase64String(decryptedData);
+            await JS.InvokeVoidAsync("downloadFile", file.FileName, base64String);
+
+            DownloadMessage = $"Filen '{file.FileName}' blev downloadet.";
+            DownloadSuccess = true;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Download-fejl: {ex}");
+            DownloadMessage = "Der opstod en fejl under download.";
+            DownloadSuccess = false;
+        }
+    }
+}

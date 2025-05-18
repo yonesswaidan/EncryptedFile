@@ -1,0 +1,46 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+<div class="main-layout">
+    <NavMenu />
+    <div class="content @(IsLoginPage ? "" : "with-sidebar")">
+        @Body
+    </div>
+</div>
+
+<style>
+    .main-layout {
+        display: flex;
+        height: 100vh;
+        background: linear-gradient(to bottom, #0d47a1, #4a148c);
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .content {
+        flex: 1;
+        padding: 40px;
+        background-color: #f9fafc;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .content.with-sidebar {
+            /* Du kan tilføje styling her, hvis nødvendigt */
+        }
+</style>
+
+@code {
+    private readonly string[] LoginPages = new[] { "/", "/login" };
+
+    private bool IsLoginPage
+    {
+        get
+        {
+            var currentPath = new Uri(NavigationManager.Uri).AbsolutePath;
+            return LoginPages.Contains(currentPath, StringComparer.OrdinalIgnoreCase);
+        }
+    }
+}

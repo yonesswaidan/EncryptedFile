@@ -1,0 +1,97 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager NavigationManager
+
+@if (!IsLoginPage)
+{
+    <div class="main-layout">
+        <div class="sidebar">
+            <h3>Menu</h3>
+            <nav>
+                <ul>
+                    <li><a href="/upload">Upload fil</a></li>
+                    <li><a href="/download">Download fil</a></li>
+                    <li><a href="/">Log ud</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content with-sidebar">
+            @Body
+        </div>
+    </div>
+}
+else
+{
+    <div class="content">
+        @Body
+    </div>
+}
+
+<style>
+    .main-layout {
+        display: flex;
+        height: 100vh;
+        background: linear-gradient(to bottom, #0d47a1, #4a148c);
+        color: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .sidebar {
+        width: 220px;
+        background-color: #0d47a1;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+        .sidebar h3 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            .sidebar ul li {
+                margin-bottom: 15px;
+            }
+
+                .sidebar ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                    .sidebar ul li a:hover {
+                        text-decoration: underline;
+                    }
+
+    .content {
+        flex: 1;
+        padding: 40px;
+        background-color: #f9fafc;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .content.with-sidebar {
+            /* Styling når sidebar er synlig */
+        }
+</style>
+
+@code {
+    private readonly string[] LoginPages = new[] { "/", "/login", "/register" };
+
+    private bool IsLoginPage
+    {
+        get
+        {
+            var currentPath = new Uri(NavigationManager.Uri).AbsolutePath;
+            return LoginPages.Contains(currentPath, StringComparer.OrdinalIgnoreCase);
+        }
+    }
+}

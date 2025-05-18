@@ -1,0 +1,166 @@
+﻿@page "/"
+@using System.Security.Claims
+@using Microsoft.EntityFrameworkCore
+@using EncryptedFileApp.Data
+@using EncryptedFileApp.Models
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Authorization
+@using Microsoft.AspNetCore.Http
+@inject AppDbContext Db
+@inject NavigationManager NavigationManager
+@inject AppAuthenticationStateProvider CustomAuthProvider
+@inject IHttpContextAccessor HttpContextAccessor
+
+@rendermode InteractiveServer
+
+<link href="css/login.css" rel="stylesheet" />
+
+<div class="container">
+    <h3>Login</h3>
+
+    <input @bind="UserName" placeholder="Brugernavn" autocomplete="username" />
+
+    <input @bind="Password" type="password" placeholder="Adgangskode" autocomplete="current-password" />
+
+    <div class="buttons">
+        <button @onclick="HandleLogin" disabled="@IsLoading">Log ind</button>
+        <button @onclick="@(() => NavigationManager.NavigateTo("/register"))" disabled="@IsLoading">Opret konto</button>
+    </div>
+
+    <p class="message" style="color:red">@Message</p>
+</div>
+
+@code {
+    private string UserName = "";
+    private string Password = "";
+    private string Message = "";
+    private bool IsLoading = false;
+
+    private const int MaxLoginAttemptsPerIp = 20;
+    private const int MaxLoginAttemptsPerUser = 5;
+    private static readonly TimeSpan LoginTimeWindow = TimeSpan.FromMinutes(10);
+    private static readonly TimeSpan UserLockoutDuration = TimeSpan.FromMinutes(15);
+
+    private async Task HandleLogin()
+    {
+        IsLoading = true;
+        Message = "";
+
+        try
+        {
+            var ip = GetClientIp();
+
+            // Rate limit på IP
+            if (await IsIpRateLimited(ip))
+            {
+                Message = "For mange loginforsøg fra din IP. Prøv igen senere.";
+                return;
+            }
+
+            // Rate limit på bruger
+            if (await IsUserLockedOut(UserName))
+            {
+                Message = "Din konto er midlertidigt låst pga for mange mislykkede loginforsøg. Prøv igen senere.";
+                return;
+            }
+
+            var bruger = await Db.Brugere.FirstOrDefaultAsync(b => b.Brugernavn == UserName);
+
+            if (bruger == null)
+            {
+                await LogLoginAttempt(ip, false, UserName);
+                Message = "Ugyldigt brugernavn eller kodeord.";
+                return;
+            }
+
+            var hasher = new PasswordHasher<Bruger>();
+            var verifyResult = hasher.VerifyHashedPassword(bruger, bruger.Kodeord, Password);
+
+            if (verifyResult == PasswordVerificationResult.Failed)
+            {
+                await LogLoginAttempt(ip, false, UserName);
+                Message = "Ugyldigt brugernavn eller kodeord.";
+                return;
+            }
+
+            // Succesfuldt login
+            await LogLoginAttempt(ip, true, UserName);
+
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, bruger.Brugernavn),
+                new Claim("userId", bruger.Id.ToString())
+            };
+
+            await CustomAuthProvider.MarkUserAsAuthenticated(claims);
+
+            NavigationManager.NavigateTo("/upload");
+        }
+        catch (Exception)
+        {
+            Message = "Der opstod en fejl under login. Prøv igen senere.";
+        }
+        finally
+        {
+            IsLoading = false;
+            Password = ""; // Ryd kodeord af sikkerhedshensyn
+        }
+    }
+
+    private string GetClientIp()
+    {
+        var context = HttpContextAccessor.HttpContext;
+        if (context == null)
+            return "unknown";
+
+        // Check X-Forwarded-For header først (hvis app er bag reverse proxy)
+        var forwardedFor = context.Request.Headers["X-Forwarded-For"].FirstOrDefault();
+        if (!string.IsNullOrEmpty(forwardedFor))
+        {
+            var ip = forwardedFor.Split(',').FirstOrDefault()?.Trim();
+            if (!string.IsNullOrEmpty(ip))
+                return ip;
+        }
+
+        return context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+    }
+
+    private async Task<bool> IsIpRateLimited(string ip)
+    {
+        var now = DateTime.UtcNow;
+        var windowStart = now - LoginTimeWindow;
+
+        var failedAttempts = await Db.LoginAttempts
+            .Where(a => a.Ip == ip && a.AttemptTime >= windowStart && !a.Success)
+            .CountAsync();
+
+        return failedAttempts >= MaxLoginAttemptsPerIp;
+    }
+
+    private async Task<bool> IsUserLockedOut(string username)
+    {
+        var now = DateTime.UtcNow;
+        var lockoutWindowStart = now - UserLockoutDuration;
+
+        // Tæl mislykkede forsøg indenfor låseperioden
+        var failedAttempts = await Db.LoginAttempts
+            .Where(a => a.UserName == username && a.AttemptTime >= lockoutWindowStart && !a.Success)
+            .CountAsync();
+
+        return failedAttempts >= MaxLoginAttemptsPerUser;
+    }
+
+    private async Task LogLoginAttempt(string ip, bool success, string? username)
+    {
+        var attempt = new LoginAttempt
+            {
+                Ip = ip,
+                AttemptTime = DateTime.UtcNow,
+                Success = success,
+                UserName = username
+            };
+
+        Db.LoginAttempts.Add(attempt);
+        await Db.SaveChangesAsync();
+    }
+}

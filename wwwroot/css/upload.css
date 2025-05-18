@@ -1,0 +1,70 @@
+﻿.container {
+    position: relative; /* Nødvendigt for absolut positionering af logout-knap */
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+    p[style*="color: red"] {
+        color: #d9534f; /* Bootstrap danger red */
+    }
+
+    p[style*="color: green"] {
+        color: #28a745; /* Bootstrap success green */
+    }
+
+div > p {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #444;
+}
+
