@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EncryptedFileApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58526460a7771e9bd3a262b1cd39049b842d2d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30137d48e2c97381ca7193085ddaa750bb679633")]
 [assembly: System.Reflection.AssemblyProductAttribute("EncryptedFileApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EncryptedFileApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

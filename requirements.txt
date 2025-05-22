@@ -1,0 +1,6 @@
+Azure.Identity
+Azure.Security.KeyVault.Secrets
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.Extensions.Logging
+System.Collections.Concurrent 

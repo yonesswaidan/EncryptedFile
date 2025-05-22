@@ -18,7 +18,6 @@ namespace EncryptedFileApp.Data
         public DbSet<Bruger> Brugere { get; set; }
         public DbSet<UserFile> UserFiles { get; set; }
 
-        // Override SaveChangesAsync for at logge eller validere sikkerhed ved ændringer
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             foreach (var entry in ChangeTracker.Entries())
@@ -27,13 +26,11 @@ namespace EncryptedFileApp.Data
                 {
                     if (entry.State == EntityState.Modified)
                     {
-                        // Her kan du indsætte sikkerhedsvalidering, fx adgangskontrol
                     }
                 }
 
                 if (entry.State == EntityState.Added || entry.State == EntityState.Modified || entry.State == EntityState.Deleted)
                 {
-                    // Her kan du logge ændringer, f.eks. via en logger-service
                 }
             }
 
@@ -67,14 +64,14 @@ namespace EncryptedFileApp.Data
 
             modelBuilder.Entity<Bruger>(entity =>
             {
-                // Brug korrekte feltnavne fra din Bruger-klasse
+
                 entity.Property(b => b.Brugernavn)
                       .IsRequired()
                       .HasMaxLength(100);
 
                 entity.Property(b => b.Kodeord)
                       .IsRequired()
-                      .HasMaxLength(255); // Tilføj max længde, da du bruger klartekst (anbefales IKKE)
+                      .HasMaxLength(255); 
             });
         }
     }

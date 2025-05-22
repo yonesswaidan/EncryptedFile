@@ -155,9 +155,10 @@
             if (bytesRead == 0) throw new IOException("Ingen bytes læst.");
 
             var result = EncryptionService.Encrypt(buffer);
+
+            // Kryptering med AES i FileEncryptionService; nøgle og IV gemmes sikkert i Azure Key Vault, så filens indhold ikke kan dekrypteres uden rigtig adgang.
             var generatedFileName = Guid.NewGuid().ToString();
 
-            // Gem krypteringsnøgle og IV i Azure Key Vault
             await KeyVaultService.StoreKeyAsync(generatedFileName, result.Key, result.IV);
 
             var userFile = new UserFile

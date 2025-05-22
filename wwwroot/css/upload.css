@@ -1,5 +1,5 @@
 ﻿.container {
-    position: relative; /* Nødvendigt for absolut positionering af logout-knap */
+    position: relative;
     max-width: 450px;
     margin: 30px auto;
     padding: 25px;
@@ -55,11 +55,11 @@ p {
 }
 
     p[style*="color: red"] {
-        color: #d9534f; /* Bootstrap danger red */
+        color: #d9534f; 
     }
 
     p[style*="color: green"] {
-        color: #28a745; /* Bootstrap success green */
+        color: #28a745; 
     }
 
 div > p {

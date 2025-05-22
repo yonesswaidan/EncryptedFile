@@ -22,7 +22,7 @@ namespace EncryptedFileApp.Models
 
         public int BrugerId { get; set; }
 
-        // Gemmer den krypterede fil i databasen
+        // Her gemmer den, den krypterede fil i databasen
         [Required]
         public byte[] EncryptedData { get; set; } = Array.Empty<byte>();
     }

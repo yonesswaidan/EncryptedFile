@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQQz41/PNjwxzFx4mF0mdL+bm32MXRVR6miL6XJcbjw=",
+  "Hash": "KuNdUE0ePHkNorPOYvJBxdCRqKSaWk8tPa/aHhmN2RM=",
   "Source": "EncryptedFileApp",
   "BasePath": "_content/EncryptedFileApp",
   "Mode": "Default",
@@ -248,12 +248,12 @@
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-hylpjiwdwp.gz",
+      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-kqh1sk7qid.gz",
       "SourceId": "EncryptedFileApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EncryptedFileApp",
-      "RelativePath": "css/upload#[.{fingerprint=hylpjiwdwp}]?.css.gz",
+      "RelativePath": "css/upload#[.{fingerprint=kqh1sk7qid}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -262,8 +262,8 @@
       "RelatedAsset": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\upload.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "stjdtkdyla",
-      "Integrity": "oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A=",
+      "Fingerprint": "jz6vetm7oi",
+      "Integrity": "4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\upload.css"
@@ -332,12 +332,12 @@
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-vvcul9fjxp.gz",
+      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-zwjposwkia.gz",
       "SourceId": "EncryptedFileApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EncryptedFileApp",
-      "RelativePath": "css/download#[.{fingerprint=vvcul9fjxp}]?.css.gz",
+      "RelativePath": "css/download#[.{fingerprint=zwjposwkia}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -346,8 +346,8 @@
       "RelatedAsset": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\download.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qw0dw7n78y",
-      "Integrity": "2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA=",
+      "Fingerprint": "o1w4sftfzf",
+      "Integrity": "PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\download.css"
@@ -626,12 +626,12 @@
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-pacadqme7f.gz",
+      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-hx98zve11x.gz",
       "SourceId": "EncryptedFileApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EncryptedFileApp",
-      "RelativePath": "js/filedownload#[.{fingerprint=pacadqme7f}]?.js.gz",
+      "RelativePath": "js/filedownload#[.{fingerprint=hx98zve11x}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -640,8 +640,8 @@
       "RelatedAsset": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\js\\filedownload.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7t0luq3af2",
-      "Integrity": "pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8=",
+      "Fingerprint": "w46ov57l29",
+      "Integrity": "EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\js\\filedownload.js"
@@ -836,12 +836,12 @@
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-e66h89b07m.gz",
+      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-ttrkur1ml9.gz",
       "SourceId": "EncryptedFileApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EncryptedFileApp",
-      "RelativePath": "css/login#[.{fingerprint=e66h89b07m}]?.css.gz",
+      "RelativePath": "css/login#[.{fingerprint=ttrkur1ml9}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -850,8 +850,8 @@
       "RelatedAsset": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\login.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "swof6glhb1",
-      "Integrity": "JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c=",
+      "Fingerprint": "gem7a9hf7c",
+      "Integrity": "KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\login.css"
@@ -962,12 +962,12 @@
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-c88s6kz5v8.gz",
+      "Identity": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-8jfpcabc2q.gz",
       "SourceId": "EncryptedFileApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/EncryptedFileApp",
-      "RelativePath": "css/register#[.{fingerprint=c88s6kz5v8}]?.css.gz",
+      "RelativePath": "css/register#[.{fingerprint=8jfpcabc2q}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -976,8 +976,8 @@
       "RelatedAsset": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\register.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1tmn6ku1zr",
-      "Integrity": "y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI=",
+      "Fingerprint": "vm5sq4by82",
+      "Integrity": "edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\register.css"
@@ -1186,8 +1186,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vvcul9fjxp",
-      "Integrity": "u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY=",
+      "Fingerprint": "zwjposwkia",
+      "Integrity": "EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\download.css"
@@ -1207,8 +1207,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e66h89b07m",
-      "Integrity": "hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o=",
+      "Fingerprint": "ttrkur1ml9",
+      "Integrity": "4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\login.css"
@@ -1228,8 +1228,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c88s6kz5v8",
-      "Integrity": "rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4=",
+      "Fingerprint": "8jfpcabc2q",
+      "Integrity": "HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\register.css"
@@ -1249,8 +1249,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hylpjiwdwp",
-      "Integrity": "afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw=",
+      "Fingerprint": "kqh1sk7qid",
+      "Integrity": "9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\upload.css"
@@ -1291,8 +1291,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pacadqme7f",
-      "Integrity": "wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0=",
+      "Fingerprint": "hx98zve11x",
+      "Integrity": "ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\filedownload.js"
@@ -2523,12 +2523,12 @@
     },
     {
       "Route": "css/download.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-vvcul9fjxp.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-zwjposwkia.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001956947162"
         }
       ],
       "ResponseHeaders": [
@@ -2538,15 +2538,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "510"
         },
         {
           "Name": "ETag",
-          "Value": "\"2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA=\""
+          "Value": "\"PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2566,13 +2566,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY=\""
+          "Value": "W/\"EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY="
+          "Value": "sha256-EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c="
         }
       ]
     },
@@ -2587,7 +2587,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1284"
+          "Value": "1237"
         },
         {
           "Name": "Content-Type",
@@ -2595,11 +2595,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY=\""
+          "Value": "\"EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2609,13 +2609,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY="
+          "Value": "sha256-EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c="
         }
       ]
     },
     {
       "Route": "css/download.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-vvcul9fjxp.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-zwjposwkia.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2624,7 +2624,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "510"
         },
         {
           "Name": "Content-Type",
@@ -2632,11 +2632,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA=\""
+          "Value": "\"PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,18 +2654,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA="
+          "Value": "sha256-PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs="
         }
       ]
     },
     {
-      "Route": "css/download.vvcul9fjxp.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-vvcul9fjxp.gz",
+      "Route": "css/download.zwjposwkia.css",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-zwjposwkia.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001824817518"
+          "Quality": "0.001956947162"
         }
       ],
       "ResponseHeaders": [
@@ -2675,15 +2675,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "510"
         },
         {
           "Name": "ETag",
-          "Value": "\"2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA=\""
+          "Value": "\"PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2703,13 +2703,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY=\""
+          "Value": "W/\"EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvcul9fjxp"
+          "Value": "zwjposwkia"
         },
         {
           "Name": "label",
@@ -2717,12 +2717,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY="
+          "Value": "sha256-EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c="
         }
       ]
     },
     {
-      "Route": "css/download.vvcul9fjxp.css",
+      "Route": "css/download.zwjposwkia.css",
       "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\download.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2732,7 +2732,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1284"
+          "Value": "1237"
         },
         {
           "Name": "Content-Type",
@@ -2740,11 +2740,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY=\""
+          "Value": "\"EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2754,7 +2754,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvcul9fjxp"
+          "Value": "zwjposwkia"
         },
         {
           "Name": "label",
@@ -2762,13 +2762,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u0Ul3lLCQ9lmXwL2RoSwtnUfuSKr1nDMxeKQbsEnLtY="
+          "Value": "sha256-EznMqzZfwh5aPQmJ3ngSW2o6fptOMyWwKCQrf67x5/c="
         }
       ]
     },
     {
-      "Route": "css/download.vvcul9fjxp.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-vvcul9fjxp.gz",
+      "Route": "css/download.zwjposwkia.css.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\ai2z0swgjx-zwjposwkia.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2777,7 +2777,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "547"
+          "Value": "510"
         },
         {
           "Name": "Content-Type",
@@ -2785,11 +2785,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA=\""
+          "Value": "\"PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:54:46 GMT"
+          "Value": "Thu, 22 May 2025 15:01:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2807,7 +2807,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vvcul9fjxp"
+          "Value": "zwjposwkia"
         },
         {
           "Name": "label",
@@ -2815,18 +2815,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2hFWAUDjhU9HVaVRnZ71drDS3UVkvhxEf+xPcSVvnHA="
+          "Value": "sha256-PEM60FBHYRYqCfvj4rQto8l8wGyson3R9sBIj9Xsehs="
         }
       ]
     },
     {
       "Route": "css/login.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-e66h89b07m.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-ttrkur1ml9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001153402537"
+          "Quality": "0.001562500000"
         }
       ],
       "ResponseHeaders": [
@@ -2836,15 +2836,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "639"
         },
         {
           "Name": "ETag",
-          "Value": "\"JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c=\""
+          "Value": "\"KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2864,13 +2864,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o=\""
+          "Value": "W/\"4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o="
+          "Value": "sha256-4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg="
         }
       ]
     },
@@ -2885,7 +2885,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2164"
+          "Value": "1752"
         },
         {
           "Name": "Content-Type",
@@ -2893,11 +2893,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o=\""
+          "Value": "\"4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2907,13 +2907,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o="
+          "Value": "sha256-4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg="
         }
       ]
     },
     {
       "Route": "css/login.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-e66h89b07m.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-ttrkur1ml9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2922,7 +2922,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "639"
         },
         {
           "Name": "Content-Type",
@@ -2930,11 +2930,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c=\""
+          "Value": "\"KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2952,18 +2952,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c="
+          "Value": "sha256-KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI="
         }
       ]
     },
     {
-      "Route": "css/login.e66h89b07m.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-e66h89b07m.gz",
+      "Route": "css/login.ttrkur1ml9.css",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-ttrkur1ml9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001153402537"
+          "Quality": "0.001562500000"
         }
       ],
       "ResponseHeaders": [
@@ -2973,15 +2973,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "639"
         },
         {
           "Name": "ETag",
-          "Value": "\"JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c=\""
+          "Value": "\"KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3001,13 +3001,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o=\""
+          "Value": "W/\"4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e66h89b07m"
+          "Value": "ttrkur1ml9"
         },
         {
           "Name": "label",
@@ -3015,12 +3015,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o="
+          "Value": "sha256-4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg="
         }
       ]
     },
     {
-      "Route": "css/login.e66h89b07m.css",
+      "Route": "css/login.ttrkur1ml9.css",
       "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\login.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3030,7 +3030,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2164"
+          "Value": "1752"
         },
         {
           "Name": "Content-Type",
@@ -3038,11 +3038,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o=\""
+          "Value": "\"4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3052,7 +3052,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e66h89b07m"
+          "Value": "ttrkur1ml9"
         },
         {
           "Name": "label",
@@ -3060,13 +3060,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hrU9ag3BvEwQTOOq799ug1KrhbWQZscGaAjWgglkG+o="
+          "Value": "sha256-4YOgGh5reIsJiDMO1/KuA79aeCK7Kv8jpLSdUkOp8Eg="
         }
       ]
     },
     {
-      "Route": "css/login.e66h89b07m.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-e66h89b07m.gz",
+      "Route": "css/login.ttrkur1ml9.css.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\thh8nbgnmt-ttrkur1ml9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3075,7 +3075,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "866"
+          "Value": "639"
         },
         {
           "Name": "Content-Type",
@@ -3083,11 +3083,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c=\""
+          "Value": "\"KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:55:58 GMT"
+          "Value": "Thu, 22 May 2025 15:02:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3105,7 +3105,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e66h89b07m"
+          "Value": "ttrkur1ml9"
         },
         {
           "Name": "label",
@@ -3113,18 +3113,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JD4DUcT5hZXSM0J8bbAMfTkMmmeMcuAcZWpvn6HDA3c="
+          "Value": "sha256-KEtC+BiguX49DYG5WpM/pCSLMogQn5QIkK67ju+13xI="
         }
       ]
     },
     {
-      "Route": "css/register.c88s6kz5v8.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-c88s6kz5v8.gz",
+      "Route": "css/register.8jfpcabc2q.css",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-8jfpcabc2q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001253132832"
+          "Quality": "0.001499250375"
         }
       ],
       "ResponseHeaders": [
@@ -3134,15 +3134,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "797"
+          "Value": "666"
         },
         {
           "Name": "ETag",
-          "Value": "\"y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI=\""
+          "Value": "\"edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3162,13 +3162,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4=\""
+          "Value": "W/\"HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c88s6kz5v8"
+          "Value": "8jfpcabc2q"
         },
         {
           "Name": "label",
@@ -3176,12 +3176,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4="
+          "Value": "sha256-HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY="
         }
       ]
     },
     {
-      "Route": "css/register.c88s6kz5v8.css",
+      "Route": "css/register.8jfpcabc2q.css",
       "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\register.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3191,7 +3191,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2082"
+          "Value": "1848"
         },
         {
           "Name": "Content-Type",
@@ -3199,11 +3199,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4=\""
+          "Value": "\"HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3213,7 +3213,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c88s6kz5v8"
+          "Value": "8jfpcabc2q"
         },
         {
           "Name": "label",
@@ -3221,13 +3221,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4="
+          "Value": "sha256-HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY="
         }
       ]
     },
     {
-      "Route": "css/register.c88s6kz5v8.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-c88s6kz5v8.gz",
+      "Route": "css/register.8jfpcabc2q.css.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-8jfpcabc2q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3236,7 +3236,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "797"
+          "Value": "666"
         },
         {
           "Name": "Content-Type",
@@ -3244,11 +3244,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI=\""
+          "Value": "\"edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3266,7 +3266,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c88s6kz5v8"
+          "Value": "8jfpcabc2q"
         },
         {
           "Name": "label",
@@ -3274,18 +3274,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI="
+          "Value": "sha256-edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20="
         }
       ]
     },
     {
       "Route": "css/register.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-c88s6kz5v8.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-8jfpcabc2q.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001253132832"
+          "Quality": "0.001499250375"
         }
       ],
       "ResponseHeaders": [
@@ -3295,15 +3295,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "797"
+          "Value": "666"
         },
         {
           "Name": "ETag",
-          "Value": "\"y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI=\""
+          "Value": "\"edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3323,13 +3323,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4=\""
+          "Value": "W/\"HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4="
+          "Value": "sha256-HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY="
         }
       ]
     },
@@ -3344,7 +3344,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2082"
+          "Value": "1848"
         },
         {
           "Name": "Content-Type",
@@ -3352,11 +3352,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4=\""
+          "Value": "\"HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3366,13 +3366,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rB44kxhNJas5YAZblqK0W91POhrCGsYf9YSP2N8Swn4="
+          "Value": "sha256-HEG1XwCmFrnBpOur5dPDmiowvk+CVoXV6Z14unpyjGY="
         }
       ]
     },
     {
       "Route": "css/register.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-c88s6kz5v8.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\wpii0gqq05-8jfpcabc2q.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3381,7 +3381,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "797"
+          "Value": "666"
         },
         {
           "Name": "Content-Type",
@@ -3389,11 +3389,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI=\""
+          "Value": "\"edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 17 May 2025 00:58:02 GMT"
+          "Value": "Thu, 22 May 2025 15:12:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3411,18 +3411,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y3YPMSToJxfUSJNdowN+6FnAUQffbcrgVwicCYV9TlI="
+          "Value": "sha256-edosn9MM37DAOxO3lNLkfdhl6iGpT5apjZDk+6KSD20="
         }
       ]
     },
     {
       "Route": "css/upload.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-hylpjiwdwp.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-kqh1sk7qid.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001736111111"
+          "Quality": "0.001968503937"
         }
       ],
       "ResponseHeaders": [
@@ -3432,15 +3432,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "575"
+          "Value": "507"
         },
         {
           "Name": "ETag",
-          "Value": "\"oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A=\""
+          "Value": "\"4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3460,13 +3460,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw=\""
+          "Value": "W/\"9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw="
+          "Value": "sha256-9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA="
         }
       ]
     },
@@ -3481,7 +3481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1334"
+          "Value": "1220"
         },
         {
           "Name": "Content-Type",
@@ -3489,11 +3489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw=\""
+          "Value": "\"9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3503,13 +3503,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw="
+          "Value": "sha256-9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA="
         }
       ]
     },
     {
       "Route": "css/upload.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-hylpjiwdwp.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-kqh1sk7qid.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3518,7 +3518,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "575"
+          "Value": "507"
         },
         {
           "Name": "Content-Type",
@@ -3526,11 +3526,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A=\""
+          "Value": "\"4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3548,18 +3548,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A="
+          "Value": "sha256-4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw="
         }
       ]
     },
     {
-      "Route": "css/upload.hylpjiwdwp.css",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-hylpjiwdwp.gz",
+      "Route": "css/upload.kqh1sk7qid.css",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-kqh1sk7qid.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001736111111"
+          "Quality": "0.001968503937"
         }
       ],
       "ResponseHeaders": [
@@ -3569,15 +3569,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "575"
+          "Value": "507"
         },
         {
           "Name": "ETag",
-          "Value": "\"oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A=\""
+          "Value": "\"4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3597,13 +3597,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw=\""
+          "Value": "W/\"9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hylpjiwdwp"
+          "Value": "kqh1sk7qid"
         },
         {
           "Name": "label",
@@ -3611,12 +3611,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw="
+          "Value": "sha256-9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA="
         }
       ]
     },
     {
-      "Route": "css/upload.hylpjiwdwp.css",
+      "Route": "css/upload.kqh1sk7qid.css",
       "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\css\\upload.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3626,7 +3626,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1334"
+          "Value": "1220"
         },
         {
           "Name": "Content-Type",
@@ -3634,11 +3634,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw=\""
+          "Value": "\"9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3648,7 +3648,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hylpjiwdwp"
+          "Value": "kqh1sk7qid"
         },
         {
           "Name": "label",
@@ -3656,13 +3656,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-afYXy75nJHAEVud4v3uBvsPvq2UM4mTtk/IjJBIeVIw="
+          "Value": "sha256-9JNqAkPBPE/cI+8wSL/eOx6J6ekJ+kp25uTLiYImArA="
         }
       ]
     },
     {
-      "Route": "css/upload.hylpjiwdwp.css.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-hylpjiwdwp.gz",
+      "Route": "css/upload.kqh1sk7qid.css.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\70rmmr6n02-kqh1sk7qid.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3671,7 +3671,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "575"
+          "Value": "507"
         },
         {
           "Name": "Content-Type",
@@ -3679,11 +3679,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A=\""
+          "Value": "\"4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 11:56:12 GMT"
+          "Value": "Thu, 22 May 2025 14:04:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3701,7 +3701,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hylpjiwdwp"
+          "Value": "kqh1sk7qid"
         },
         {
           "Name": "label",
@@ -3709,7 +3709,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oALLdAFihS43FCN6v7VpRYxgZmAc59zLsbl/uA36E/A="
+          "Value": "sha256-4UjfsjFLIyn1MA7G626p3rV1zHC0bjB6JTzIrkuCMrw="
         }
       ]
     },
@@ -3738,7 +3738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3791,7 +3791,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3828,7 +3828,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3875,7 +3875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3936,7 +3936,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3981,7 +3981,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4036,7 +4036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4097,7 +4097,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4142,7 +4142,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4197,7 +4197,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4250,7 +4250,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4287,7 +4287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 18:20:21 GMT"
+          "Value": "Thu, 22 May 2025 15:09:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4392,13 +4392,13 @@
       ]
     },
     {
-      "Route": "js/filedownload.js",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-pacadqme7f.gz",
+      "Route": "js/filedownload.hx98zve11x.js",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-hx98zve11x.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002645502646"
+          "Quality": "0.003125000000"
         }
       ],
       "ResponseHeaders": [
@@ -4408,19 +4408,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "377"
+          "Value": "319"
         },
         {
           "Name": "ETag",
-          "Value": "\"pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8=\""
+          "Value": "\"EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -4436,18 +4436,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0=\""
+          "Value": "W/\"ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "hx98zve11x"
+        },
+        {
+          "Name": "label",
+          "Value": "js/filedownload.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0="
+          "Value": "sha256-ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o="
         }
       ]
     },
     {
-      "Route": "js/filedownload.js",
+      "Route": "js/filedownload.hx98zve11x.js",
       "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\js\\filedownload.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4457,7 +4465,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "660"
+          "Value": "503"
         },
         {
           "Name": "Content-Type",
@@ -4465,121 +4473,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0=\""
+          "Value": "\"ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0="
-        }
-      ]
-    },
-    {
-      "Route": "js/filedownload.js.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-pacadqme7f.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "377"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8="
-        }
-      ]
-    },
-    {
-      "Route": "js/filedownload.pacadqme7f.js",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-pacadqme7f.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002645502646"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "377"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pacadqme7f"
+          "Value": "hx98zve11x"
         },
         {
           "Name": "label",
@@ -4587,13 +4495,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0="
+          "Value": "sha256-ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o="
         }
       ]
     },
     {
-      "Route": "js/filedownload.pacadqme7f.js",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\js\\filedownload.js",
+      "Route": "js/filedownload.hx98zve11x.js.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-hx98zve11x.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4602,7 +4510,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "660"
+          "Value": "319"
         },
         {
           "Name": "Content-Type",
@@ -4610,56 +4518,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0=\""
+          "Value": "\"EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pacadqme7f"
-        },
-        {
-          "Name": "label",
-          "Value": "js/filedownload.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wRE/4uDyt7ogMbiSCM3slzJhk/qxNusfacGk4/OSFd0="
-        }
-      ]
-    },
-    {
-      "Route": "js/filedownload.pacadqme7f.js.gz",
-      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-pacadqme7f.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "377"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 18 May 2025 15:29:07 GMT"
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4677,7 +4540,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "pacadqme7f"
+          "Value": "hx98zve11x"
         },
         {
           "Name": "label",
@@ -4685,7 +4548,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pdIIGTe3ifra/R+17kjW/huDnBr2Mx7BD3NPliTYiJ8="
+          "Value": "sha256-EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/filedownload.js",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-hx98zve11x.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003125000000"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o="
+        }
+      ]
+    },
+    {
+      "Route": "js/filedownload.js",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\wwwroot\\js\\filedownload.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ReOm76SfVlBR8u38lqbFq2Fgf7OmItA2jKpVvLR0B9o="
+        }
+      ]
+    },
+    {
+      "Route": "js/filedownload.js.gz",
+      "AssetFile": "C:\\Users\\yones\\source\\repos\\EncryptedFileApp\\EncryptedFileApp\\obj\\Debug\\net9.0\\compressed\\k76o5foa71-hx98zve11x.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 14:06:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EJjrga2d2+VsnLaeZ670j8hKFFDq791dGbLBMlUsXOQ="
         }
       ]
     },

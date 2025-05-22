@@ -29,10 +29,12 @@ namespace EncryptedFileApp.Services
 
         public async Task StoreKeyAsync(string fileId, byte[] key, byte[] iv)
         {
+            // Krypteringsnøgle og IV kombineres i base64-format før den bliver laret
             string combined = Convert.ToBase64String(key) + ":" + Convert.ToBase64String(iv);
 
             _logger.LogInformation("Storing key and IV for fileId: {FileId} to Azure Key Vault", fileId);
 
+            // Gemmer nøglepar sikkert i Azure Key Vault som en Secret
             await _secretClient.SetSecretAsync(fileId, combined);
 
             _logger.LogInformation("Key and IV successfully stored for fileId: {FileId}", fileId);
@@ -49,6 +51,7 @@ namespace EncryptedFileApp.Services
 
                 if (parts.Length == 2)
                 {
+                    // Dekoder nøgle og IV fra base64 før brug i vores dekryptering
                     byte[] key = Convert.FromBase64String(parts[0]);
                     byte[] iv = Convert.FromBase64String(parts[1]);
 

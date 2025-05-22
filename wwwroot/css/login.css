@@ -1,40 +1,37 @@
-﻿/* Body og html med hvid baggrund */
-body, html {
+﻿body, html {
     height: 100%;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
-    justify-content: center; /* horisontal centrering */
-    align-items: center; /* lodret centrering */
-    background-color: whitesmoke; /* HELT HVID BAGGRUND */
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
 }
 
-/* Login container */
 .container {
     width: 90vw;
     max-width: 400px;
     padding: 2rem 2rem;
-    background-color: white; /* hvid boks */
+    background-color: white;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-left: -30px;
 }
 
-/* Titel */
 h3 {
     margin: 0 0 1rem 0;
     text-align: center;
     color: #333;
 }
 
-/* Input felter */
 input[type="text"],
 input[type="password"] {
-    padding: 0.75rem 1rem; /* lodret og vandret padding */
+    padding: 0.75rem 1rem;
     font-size: 1rem;
-    line-height: 1.5; /* sikrer ens højde via tekstlinje */
+    line-height: 1.5;
     border: 1.5px solid #ccc;
     border-radius: 5px;
     transition: border-color 0.3s ease;
@@ -48,11 +45,10 @@ input[type="password"] {
         outline: none;
     }
 
-/* Knapper */
 button {
     padding: 0.75rem 1rem;
     font-size: 1rem;
-    line-height: 1.5; /* samme højde som inputfelter */
+    line-height: 1.5;
     background-color: #0078d7;
     color: white;
     border: none;
@@ -67,7 +63,6 @@ button {
         background-color: #005fa3;
     }
 
-    /* Hvis der er to knapper ved siden af hinanden */
     button + button {
         margin-left: 0.7rem;
         background-color: #6c757d;
@@ -77,14 +72,12 @@ button {
             background-color: #5a6268;
         }
 
-/* Knap-container */
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 0.7rem; /* mellemrum mellem knapperne */
+    gap: 0.7rem;
 }
 
-/* Fejlbesked */
 p.message {
     text-align: center;
     font-weight: 600;

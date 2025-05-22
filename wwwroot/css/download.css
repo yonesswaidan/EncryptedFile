@@ -7,10 +7,10 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
     font-family: Arial, sans-serif;
-    position: relative; /* Nøgle til at placere knappen indenfor */
+    position: relative;
 }
 
-h1 {
+h3 {
     text-align: center;
     color: #222;
     margin-bottom: 20px;
@@ -68,4 +68,3 @@ div > p {
     font-size: 13px;
     color: #444;
 }
-

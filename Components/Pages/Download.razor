@@ -71,6 +71,7 @@
     private string? DownloadMessage;
     private bool DownloadSuccess;
 
+    // Her valider autentificering og henter brugerenes filer fra databasen
     protected override async Task OnInitializedAsync()
     {
         var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
@@ -85,6 +86,7 @@
             {
                 brugerId = id;
 
+                // Kun filer som er tilknyttet den aktuelle bruger hentes – ville giver en slags "adgangskontrol"
                 UserFiles = await Db.UserFiles
                     .Where(f => f.BrugerId == brugerId)
                     .ToListAsync();
@@ -103,10 +105,12 @@
         Navigation.NavigateTo("/login");
     }
 
+    // Her håndterer den dekryptering og sikre download af filen
     private async Task DownloadFileAsync(UserFile file)
     {
         try
         {
+            // Sikrer at filen tilhører den aktuelle bruger udefra brugerID
             if (file == null || file.BrugerId != brugerId)
             {
                 DownloadMessage = "Ugyldig adgang til fil.";
@@ -121,7 +125,7 @@
                 return;
             }
 
-            // 🔐 Hent nøgle og IV fra Azure Key Vault via AzureKeyVaultService
+            // Her henter den AES-nøgle og IV fra Azure Key Vault
             var keyIv = await AzureKeyVaultService.GetKeyAsync(file.SavedFileName);
 
             if (keyIv == null || keyIv.Value.Key == null || keyIv.Value.IV == null)
@@ -131,6 +135,7 @@
                 return;
             }
 
+            // Her dekrypterer den filen som er downloadet med AES-nøgle og IV
             var decryptedData = EncryptionService.Decrypt(file.EncryptedData, keyIv.Value.Key, keyIv.Value.IV);
 
             if (decryptedData == null || decryptedData.Length == 0)
@@ -140,6 +145,7 @@
                 return;
             }
 
+            // Her starter download i browseren vha. JS (filen leveres i kodet Base64)
             var base64String = Convert.ToBase64String(decryptedData);
             await JS.InvokeVoidAsync("downloadFile", file.FileName, base64String);
 
